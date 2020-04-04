@@ -1,0 +1,115 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVIGASI */
+.navbar {
+    background-color: black;
+    border-bottom: solid rgba(255, 255, 255, 0.3) 1px;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: small;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: gray;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    font-weight: 900;
+    color: white;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: black;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-family: 'Lora';
+    font-size: 40px;
+}
+
+.jumbotron h2 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.jumbotron .stylecss {
+    border-radius: 5px;
+    width: 112px;
+    height: 45px;
+}
+
+/* NATAL */
+.natal {
+    background: #F8F9FA;
+}
+
+.natal .col h1 {
+    font-family: 'Lora';
+    font-size: 28px;
+    color: #1B2690;
+
+}
+
+.natal .col p {
+    font-size: 14px;
+    color: #B7B7B7;
+
+}
+
+.natal .caption h2 {
+    font-size: 17px;
+    line-height: 32px;
+    color: #171717;
+}
+
+.natal .caption h3 {
+    font-size: 14px;
+    color: #B7B7B7;
+}
+
+/* DESIGNERS */
+.designers h1 {
+    font-family: 'Lora';
+    font-size: 28px;
+    color: #1B2690;
+}
+
+.designers p {
+    font-size: 14px;
+    color: #B7B7B7;
+}
+
+.designers .col h2 {
+    font-size: 17px;
+    line-height: 32px;
+    color: #171717;
+}
+
+.designers .col h3 {
+    font-size: 14px;
+    color: #B7B7B7;
+}
+
+
+/* SEE */
+.see .row .col h4 {
+    font-size: 16px;
+    color: #1984FF;
+}
+
+
+footer {
+    font-size: 16px;
+    line-height: 32px;
+    color: #B7B7B7;
+}
